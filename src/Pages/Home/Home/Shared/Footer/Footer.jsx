@@ -56,8 +56,8 @@ const Footer = () => {
                 </nav>
 
                 <aside>
-                    <p>Copyright © {currentDay} {currentMonth} {currentYear}</p>
-                    <p> - All right reserved by GrooveStyle Ltd</p>
+                    <p>Copyright © All right reserved by GrooveStyle Ltd </p>
+                    <p> {currentDay} {currentMonth} {currentYear}</p>
                 </aside>
             </div>
         </footer>
