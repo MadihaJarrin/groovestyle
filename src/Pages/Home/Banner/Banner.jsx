@@ -6,6 +6,7 @@ import banner3 from '../../../assets/Home/banner3.png'
 import banner4 from '../../../assets/Home/banner4.png'
 import banner5 from '../../../assets/Home/banner5.png'
 import banner6 from '../../../assets/Home/banner6.jpg'
+import banner7 from '../../../assets/Home/banner7.jpg'
 
 
 const Banner = () => {
@@ -18,6 +19,9 @@ const Banner = () => {
             </div>
             <div>
                 <img src={banner2} />
+            </div>
+            <div>
+                <img src={banner7} />
             </div>
             <div>
                 <img src={banner1} />
