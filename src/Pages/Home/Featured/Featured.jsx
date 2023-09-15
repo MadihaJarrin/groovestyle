@@ -29,7 +29,6 @@ const Featured = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum mollitia hic distinctio laudantium? Beatae quasi hic fugit doloremque minus, totam reiciendis natus error unde repellat placeat dolorem. Magni, nam? </p>
                     <button className="btn btn-outline border-0 border-b-4 mt-4 text-white">Order Now</button>
 
-
                 </div>
             </div>
         </div>

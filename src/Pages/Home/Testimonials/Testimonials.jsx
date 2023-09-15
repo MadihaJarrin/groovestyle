@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,28 +6,27 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 // import required modules
 import { Navigation } from 'swiper/modules';
+import { useEffect, useState } from "react";
 
 import '@smastrom/react-rating/style.css'
 import { Rating } from "@smastrom/react-rating";
 
-
 const Testimonials = () => {
     const [reviews, setReviews] = useState([]);
+
     useEffect(() => {
-        fetch('reviews.json')
+        fetch('Reviews.json')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
     return (
-        <section className="my-20">
+        <section className="">
             <SectionTitle
-                subHeading="What Our Client Say"
-                heading={'Testimonials'}
-            >
-
-            </SectionTitle>
-
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                heading={"Remembrance"}
+                subHeading={"What our client say"}
+            ></SectionTitle>
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper bg-red-100 shadow-inner rounded-xl
+             shadow-cyan-500/50">
 
                 {
                     reviews.map(review =>
@@ -36,8 +34,8 @@ const Testimonials = () => {
                             key={review._id}
                         >
 
-                            <div className="flex flex-col items-center mx-24 my-16">
-                                <h2>REVIEWS COUNT : {reviews.length}</h2>
+                            <div className="flex flex-col items-center mx-24 my-16  ">
+                                {/* <h2>REVIEWS COUNT : {reviews.length}</h2> */}
 
                                 <Rating
                                     style={{ maxWidth: 180 }}
