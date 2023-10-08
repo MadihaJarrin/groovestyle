@@ -21,7 +21,7 @@ const PopularItems = () => {
         ">
             <Title
                 headTitle={"Popular Items"}
-                subTitle={"10% discount"}
+                subTitle={"From Our Item"}
             ></Title>
             <Swiper
                 effect={'coverflow'}

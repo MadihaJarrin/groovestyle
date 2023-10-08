@@ -37,7 +37,7 @@ const NavBar = () => {
                         <li><Link to='/'>Home</Link></li>
 
                         <li>
-                            <Link to='/category'>Categoris</Link>
+                            <Link to='/categories'>Categoris</Link>
                             <ul className="p-2">
                                 <li><a>Clothes</a></li>
                                 <li> <Link to='/category'>Shoe</Link></li>
@@ -62,7 +62,7 @@ const NavBar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li tabIndex={0}>
                         <details>
-                            <summary><Link to='/category'>Categoris</Link></summary>
+                            <summary><Link to='/categories'>Categoris</Link></summary>
                             <ul className="p-2">
                                 <li><a>Clothes</a></li>
                                 <li><Link to='/category'>Shoe</Link></li>

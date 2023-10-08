@@ -5,6 +5,7 @@ import Featured from "../Featured/Featured";
 import PopularItems from "../PopularItems/PopularItems";
 import Testimonials from "../Testimonials/Testimonials";
 import { Helmet } from 'react-helmet-async';
+import TopCollections from "../TopCollections/TopCollections";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner></Banner>
             <Collections></Collections>
             <PopularItems></PopularItems>
+            <TopCollections></TopCollections>
             <Shoes></Shoes>
             <Featured></Featured>
             <Testimonials></Testimonials>

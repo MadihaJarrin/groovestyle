@@ -4,9 +4,9 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import AboutUs from "../Pages/About Us/AboutUs";
-import Categories from "../Pages/Category/Categories";
 import Login from "../Pages/Authentication/Login/Login";
 import SignUp from "../Pages/Authentication/SignUp/SignUp";
+import Categories from "../Pages/Categories/Categories/Categories";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
                 element: <AboutUs></AboutUs>
             },
             {
-                path: 'category',
+                path: 'categories',
                 element: <Categories></Categories>
             },
             {
