@@ -16,7 +16,9 @@ import 'swiper/css/pagination';
 
 const PopularItems = () => {
     return (
-        <section className="bg-orange-100 py-12">
+        <section className=" py-12
+        bg-orange-100
+        ">
             <Title
                 headTitle={"Popular Items"}
                 subTitle={"10% discount"}

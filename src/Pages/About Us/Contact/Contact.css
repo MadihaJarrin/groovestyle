@@ -1,0 +1,30 @@
+.about form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.about-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("https://web-dev.imgix.net/image/admin/K1IN7zWIjFLjZzJ4Us3J.jpg?auto=format");
+
+}
+
+.about {
+    padding-top: 20%;
+}
+
+.about form input,
+textarea {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+#about-last img {
+    width: 80%;
+    margin: 5%;
+    /* padding: 3%; */
+}

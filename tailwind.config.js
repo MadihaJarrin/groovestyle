@@ -8,5 +8,7 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")], //node = true in eslintrc
+
 }
+
 

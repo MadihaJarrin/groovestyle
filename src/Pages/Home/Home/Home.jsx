@@ -1,3 +1,4 @@
+import Shoes from "../../Category/Shoes/Shoes";
 import Banner from "../Banner/Banner";
 import Collections from "../Collections/Collections";
 import Featured from "../Featured/Featured";
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <Collections></Collections>
             <PopularItems></PopularItems>
+            <Shoes></Shoes>
             <Featured></Featured>
             <Testimonials></Testimonials>
 

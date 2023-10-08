@@ -1,7 +1,7 @@
 
 const Cover = ({ img }) => {
     return (
-        <div className=" hero min-h-screen"
+        <div className=" hero min-h-screen mb-20"
             style={{ backgroundImage: `url("${img}")` }}>
             <div className="hero-overlay bg-opacity-50"></div>
             <div className="hero-content text-center text-neutral-content">

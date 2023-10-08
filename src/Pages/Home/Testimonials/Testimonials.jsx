@@ -20,13 +20,14 @@ const Testimonials = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <section className="">
+        <section className="p-5">
             <SectionTitle
                 heading={"Remembrance"}
                 subHeading={"What our client say"}
             ></SectionTitle>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper bg-red-100 shadow-inner rounded-xl
-             shadow-cyan-500/50">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper
+             bg-red-100 shadow-inner
+             shadow-cyan-400/50 rounded-full mb-10">
 
                 {
                     reviews.map(review =>

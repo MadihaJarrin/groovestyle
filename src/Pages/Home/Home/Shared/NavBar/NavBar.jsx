@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
+import { useContext } from "react";
+import { AuthContext } from "../../../../../Providers/AuthProvider";
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext)
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error =>
+                console.log(error));
+    }
+
     // const navOptions =
     //     <>
     //         <li><a>Item 1</a></li>
@@ -25,15 +35,23 @@ const NavBar = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li> <SearchBar></SearchBar>  </li>
                         <li><Link to='/'>Home</Link></li>
+
                         <li>
-                            <a>Categories</a>
+                            <Link to='/category'>Categoris</Link>
                             <ul className="p-2">
                                 <li><a>Clothes</a></li>
-                                <li><a>Shoes</a></li>
+                                <li> <Link to='/category'>Shoe</Link></li>
                             </ul>
                         </li>
                         <li><a>Dashboard</a></li>
                         <li><Link to='/about'>About Us</Link></li>
+                        {
+                            user ? <>
+                                <button onClick={handleLogOut} className="btn btn-success">Log out</button>
+                            </> : <>
+                                <li> <Link to="/login">Login</Link> </li>
+                            </>
+                        }
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">GROOVE STYLE</a>
@@ -44,19 +62,26 @@ const NavBar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li tabIndex={0}>
                         <details>
-                            <summary>Categories</summary>
+                            <summary><Link to='/category'>Categoris</Link></summary>
                             <ul className="p-2">
                                 <li><a>Clothes</a></li>
-                                <li><a>Shoes</a></li>
+                                <li><Link to='/category'>Shoe</Link></li>
                             </ul>
                         </details>
                     </li>
                     <li><a>Dashboard</a></li>
                     <li><Link to='/about'>About Us</Link></li>
+                    {
+                        user ? <>
+                            <button onClick={handleLogOut} className="btn btn-success">Log out</button>
+                        </> : <>
+                            <li> <Link to="/login">Login</Link> </li>
+                        </>
+                    }
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Account</a>
+                <a className="btn"><Link to='/login'>Account</Link></a>
             </div>
         </div>
 

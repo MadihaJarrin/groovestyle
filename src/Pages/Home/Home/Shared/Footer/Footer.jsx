@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     // funtion for current date
     const currentDay = new Date().getDate();
@@ -8,18 +10,19 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="mt-20 ">
-            <div className="footer p-12  bg-fuchsia-200 text-base-content">
+        <footer className="">
+            <div className="footer p-12 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-violet-400 to-90%
+            text-white">
                 <nav>
-                    <header className="footer-title">Services</header>
+                    <header className="footer-title text-2xl">Services</header>
                     <a className="link link-hover">Branding</a>
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
                 </nav>
                 <nav>
-                    <header className="footer-title">Company</header>
-                    <a className="link link-hover">About us</a>
+                    <header className="footer-title text-2xl">Company</header>
+                    <Link to='/about' className="link link-hover">About us </Link>
                     <a className="link link-hover">Contact</a>
                     <a className="link link-hover">Jobs</a>
                     <a className="link link-hover">Press kit</a>
@@ -33,10 +36,10 @@ const Footer = () => {
                     </div>
                 </nav> */}
                 <form>
-                    <header className="footer-title">New User</header>
+                    <header className="footer-title text-2xl">New User</header>
                     <fieldset className="form-control w-80">
                         <label className="label">
-                            <span className="label-text">Enter your email address</span>
+                            <span className="label-text text-white">Enter your email address</span>
                         </label>
                         <div className="relative">
                             <input type="text" placeholder="username@groovestyle.com" className="input input-bordered w-full pr-16" />
@@ -45,7 +48,8 @@ const Footer = () => {
                     </fieldset>
                 </form>
             </div>
-            <div className="footer footer-center p-6  bg-fuchsia-200 text-base-content">
+            <div className="footer footer-center p-6  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-violet-400 to-90%
+            text-white">
 
                 <nav>
                     <div className="grid grid-flow-col gap-4">
