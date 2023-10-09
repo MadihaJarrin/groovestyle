@@ -11,7 +11,7 @@
         "_id": "642c155b2c4774f05c36eeb9",
         "name": "Haddock",
         "description": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes1.jpg?raw=true",
         "category": "shoes",
         "price": 14.7
     },
@@ -27,7 +27,23 @@
         "_id": "642c155b2c4774f05c36ee88",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes2.jpg?raw=true",
+        "category": "shoes",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "Escalope de Veau",
+        "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes7.jpg?raw=true",
+        "category": "shoes",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "Escalope de Veau",
+        "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes3.jpg?raw=true",
         "category": "shoes",
         "price": 12.5
     },
@@ -43,7 +59,7 @@
         "_id": "642c155b2c4774f05c36ee8c",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes11.jpg?raw=true",
         "category": "shoes",
         "price": 12.5
     },
@@ -75,7 +91,7 @@
         "_id": "642c155b2c4774f05c36eeaf",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes8.jpg?raw=true",
         "category": "shoes",
         "price": 12.5
     },
@@ -83,7 +99,7 @@
         "_id": "642c155b2c4774f05c36ee89",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes9.jpg?raw=true",
         "category": "shoes",
         "price": 13.5
     },

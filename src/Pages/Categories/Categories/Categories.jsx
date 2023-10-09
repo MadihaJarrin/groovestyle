@@ -27,8 +27,8 @@ const Categories = () => {
             <AllCategories items={offered}></AllCategories>
             {/* dessert menu items  */}
             <AllCategories items={shoes} title="shoes" img={shoesImg}></AllCategories>
-            <AllCategories items={dress} title={"pizza"} img={dressImg}></AllCategories>
-            <AllCategories items={bags} title={"salad"} img={bagsImg}></AllCategories>
+            <AllCategories items={dress} title={"dresses"} img={dressImg}></AllCategories>
+            <AllCategories items={bags} title={"Bags"} img={bagsImg}></AllCategories>
         </div>
     );
 };

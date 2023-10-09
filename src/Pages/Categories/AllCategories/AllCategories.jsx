@@ -20,7 +20,7 @@ const AllCategories = ({ items, title, img }) => {
         // </div>
         <div className='p-20'>
             {title && <ParallaxCover img={img} title={title}></ParallaxCover>}
-            <div className="grid md:grid-cols-2 gap-10 my-16">
+            <div className="grid md:grid-cols-2 gap-10 my-16 px-10">
                 {
                     items.map(item => <ListItems
                         key={item._id}
