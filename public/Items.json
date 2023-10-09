@@ -107,7 +107,7 @@
         "_id": "642c155b2c4774f05c36ee81",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes7.jpg?raw=true",
         "category": "offered",
         "price": 10.5
     },
@@ -147,7 +147,7 @@
         "_id": "642c155b2c4774f05c36ee83",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes12.jpg?raw=true",
         "category": "offered",
         "price": 13.5
     },
@@ -179,7 +179,7 @@
         "_id": "642c155b2c4774f05c36ee80",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags6.jpg?raw=true",
         "category": "offered",
         "price": 14.5
     },
@@ -387,7 +387,7 @@
         "_id": "642c155b2c4774f05c36ee82",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress2.jpg?raw=true",
         "category": "offered",
         "price": 12.5
     },
