@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle'
 import useCategories from '../../../Hooks/useCategories';
 import ListItems from '../Home/Shared/ListItems/ListItems';
@@ -31,7 +32,9 @@ const TopCollections = () => {
                         item={item} //send item to listitems
                     ></ListItems>)
                 }
-                <button className="btn btn-outline border-0 border-b-4 mt-4">View All Collections</button>
+                <Link to="/categories">
+                    <button className="btn btn-outline border-0 border-b-4 mt-4">View All Collections</button>
+                </Link>
             </div>
         </section>
     );

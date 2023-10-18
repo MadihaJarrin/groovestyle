@@ -1,6 +1,5 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeaa",
         "name": "Haddock",
         "description": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?w=996&t=st=1696787418~exp=1696788018~hmac=7ce0fd8264e4da22e74f960f07f2d936f2f42d57162433d53dbe29e27e858c3e",
@@ -8,7 +7,6 @@
         "price": 14.7
     },
     {
-        "_id": "642c155b2c4774f05c36eeb9",
         "name": "Haddock",
         "description": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes1.jpg?raw=true",
@@ -16,7 +14,6 @@
         "price": 14.7
     },
     {
-        "_id": "642c155b2c4774f05c36ee7c",
         "name": "Escalope de Veau",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags2.jpg?raw=true",
@@ -24,7 +21,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes2.jpg?raw=true",
@@ -32,7 +28,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes7.jpg?raw=true",
@@ -40,7 +35,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes3.jpg?raw=true",
@@ -48,7 +42,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee7a",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress11.jpg?raw=true",
@@ -56,7 +49,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee8c",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes11.jpg?raw=true",
@@ -64,7 +56,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee94",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags3.jpg?raw=true",
@@ -72,7 +63,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee9e",
         "name": "Breton Fish Stew",
         "description": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress8.jpg?raw=true",
@@ -80,7 +70,6 @@
         "price": 12.9
     },
     {
-        "_id": "642c155b2c4774f05c36eea6",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress1.jpg?raw=true",
@@ -88,7 +77,6 @@
         "price": 13.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeaf",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes8.jpg?raw=true",
@@ -96,7 +84,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee89",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes9.jpg?raw=true",
@@ -104,7 +91,6 @@
         "price": 13.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee8a",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags6.jpg?raw=true",
@@ -112,7 +98,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee96",
         "name": "Fish Parmentier",
         "description": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags9.jpg?raw=true",
@@ -120,7 +105,6 @@
         "price": 9.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee81",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes7.jpg?raw=true",
@@ -128,7 +112,6 @@
         "price": 10.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee84",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress3.jpg?raw=true",
@@ -136,7 +119,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee84",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress5.jpg?raw=true",
@@ -144,7 +126,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee84",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress4.jpg?raw=true",
@@ -152,7 +133,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee83",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes12.jpg?raw=true",
@@ -160,7 +140,6 @@
         "price": 13.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee7f",
         "name": "Roasted Pork Belly",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes4.jpg?raw=true",
@@ -168,7 +147,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee80",
         "name": "Roast Duck Breast",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags6.jpg?raw=true",
@@ -176,7 +154,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeb5",
         "name": "Fish Parmentier",
         "description": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "https://img.freepik.com/free-photo/hand-bag-layout-with-place-text-women-s-accessories-jewellery-background-mockup-banner-fashion-accessories_460848-13210.jpg?w=826&t=st=1696787859~exp=1696788459~hmac=dfa90bbdafd18f2de43f6ee65576671c70fe53777c0480210fa4332486186ef9",
@@ -184,7 +161,6 @@
         "price": 9.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeb6",
         "name": "Haddock",
         "description": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags9.jpg?raw=true",
@@ -192,7 +168,6 @@
         "price": 14.7
     },
     {
-        "_id": "642c155b2c4774f05c36ee7e",
         "name": "Fish Parmentier",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags5.jpeg?raw=true",
@@ -200,7 +175,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee7e",
         "name": "Fish Parmentier",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags7.jpg?raw=true",
@@ -208,7 +182,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee7e",
         "name": "Fish Parmentier",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags10.jpg?raw=true",
@@ -216,7 +189,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee95",
         "name": "Chicken and Walnut Salad",
         "description": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress10.jpg?raw=true",
@@ -224,7 +196,6 @@
         "price": 13.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee9d",
         "name": "Goats Cheese Pizza",
         "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://img.freepik.com/free-photo/colorful-sneaker-is-being-spray-painted-with-purple-spray-paint_123827-23438.jpg?w=1060&t=st=1696787670~exp=1696788270~hmac=5f0bde5354ba602c3d71f76be9de98ead75a68c58648d82319827d49357b84d0",
@@ -232,7 +203,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee98",
         "name": "Breton Fish Stew",
         "description": " baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes6.jpg?raw=true",
@@ -240,7 +210,6 @@
         "price": 12.9
     },
     {
-        "_id": "642c155b2c4774f05c36ee82",
         "name": "Escalope de Veau",
         "description": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress2.jpg?raw=true",
@@ -248,7 +217,6 @@
         "price": 12.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee9a",
         "name": "Breton Fish Stew",
         "description": " baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress2.jpg?raw=true",
@@ -256,7 +224,6 @@
         "price": 12.9
     },
     {
-        "_id": "642c155b2c4774f05c36eeae",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/Shoes/shoes2.jpg?raw=true",
@@ -264,7 +231,6 @@
         "price": 10.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeae",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress9.jpg?raw=true",
@@ -272,7 +238,6 @@
         "price": 10.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeae",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/dress/dress3.jpg?raw=true",
@@ -280,7 +245,6 @@
         "price": 10.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeae",
         "name": "Tuna Niçoise",
         "description": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://github.com/MadihaJarrin/groovestyle/blob/madiha/src/assets/Categories/bags/bags10.jpg?raw=true",

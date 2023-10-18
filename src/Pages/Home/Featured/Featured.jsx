@@ -13,7 +13,7 @@ const Featured = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="featured-item bg-fixed text-white pt-8 my-20">
+        <div className="featured-item bg-fixed text-white pt-8 my-20  ">
 
             <SectionTitle
                 subHeading="Check it out"

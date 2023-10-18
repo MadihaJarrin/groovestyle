@@ -12,30 +12,33 @@ import banner7 from '../../../assets/Home/banner7.jpg'
 const Banner = () => {
     return (
 
-        <Carousel className="">
-            <div>
-                <img src={banner3} />
-                {/* <p className="legend">Legend 1</p> */}
-            </div>
-            <div>
-                <img src={banner2} />
-            </div>
-            <div>
-                <img src={banner7} />
-            </div>
-            <div>
-                <img src={banner1} />
-            </div>
-            <div>
-                <img src={banner4} />
-            </div>
-            <div>
-                <img src={banner5} />
-            </div>
-            <div>
-                <img src={banner6} />
-            </div>
-        </Carousel>
+        <div className="flex justify-center">
+            <Carousel className="">
+                <div>
+                    <img src={banner3} />
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+                <div>
+                    <img src={banner5} />
+                </div>
+                <div>
+                    <img src={banner2} />
+                </div>
+                <div>
+                    <img src={banner7} />
+                </div>
+                <div>
+                    <img src={banner1} />
+                </div>
+                <div>
+                    <img src={banner4} />
+                </div>
+
+                <div>
+                    <img src={banner6} />
+                </div>
+            </Carousel>
+        </div>
 
     );
 };

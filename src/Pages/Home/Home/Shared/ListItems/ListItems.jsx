@@ -4,7 +4,7 @@ const ListItems = ({ item }) => {
 
     return (
         <div className="flex space-x-2">
-            <img style={{ borderRadius: '0 200px 200px 200px' }} className="w-[320px]" src={image} alt="" />
+            <img style={{ borderRadius: '0 200px 200px 200px' }} className="w-[320px] h-[300px]" src={image} alt="" />
             <div>
                 <h3 className="uppercase">{name}-------------</h3>
                 <p>{description}</p>

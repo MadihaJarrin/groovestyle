@@ -11,7 +11,7 @@ const Contact = () => {
                     <input placeholder="Your Name" />
                     <input type="text" placeholder="Your Email" />
                     <textarea placeholder="Your Query" />
-                    <button className="btn btn-accent">Secondary</button>
+                    <button className="btn btn-accent">Submit</button>
                 </form>
             </div>
             <div className="about border-end border-info  mx-auto ">

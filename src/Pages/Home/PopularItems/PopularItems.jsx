@@ -17,12 +17,14 @@ import 'swiper/css/pagination';
 const PopularItems = () => {
     return (
         <section className=" py-12
-        bg-orange-100
+        bg-gradient-to-r from-indigo-400 from-10% via-sky-200 via-30% to-emerald-300 to-90% ...
         ">
+
             <Title
                 headTitle={"Popular Items"}
                 subTitle={"From Our Item"}
             ></Title>
+
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}

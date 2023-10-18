@@ -8,7 +8,7 @@ const Main = () => {
     const exceptHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signup')
 
     return (
-        <div>
+        <div className="">
             {exceptHeaderFooter || <NavBar></NavBar>}
             <Outlet></Outlet>
             {exceptHeaderFooter || <Footer></Footer>}
