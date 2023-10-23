@@ -1,10 +1,11 @@
-import { Link, Navigate, } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../../Providers/AuthProvider";
 import image from '../../../assets/Authentication/signup1.png'
 import Swal from "sweetalert2";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const SignUp = () => {
 
@@ -14,6 +15,8 @@ const SignUp = () => {
         reset,
         formState: { errors } } = useForm();
     const { createUser, updateUserProfile } = useContext(AuthContext);
+    const navigate = useNavigate();
+
 
     const onSubmit = data => {
 
@@ -25,17 +28,33 @@ const SignUp = () => {
 
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
-                        console.log("user profile info updated")
+                        const saveUser = { name: data.name, email: data.email } //get user name & email
+                        fetch('http://localhost:5000/users', {
+                            method: 'POST',
+                            headers: {
+                                'content-type': 'application/json'
+                            },
+                            body: JSON.stringify(saveUser)
 
-                        reset();
-                        Swal.fire({
-                            position: 'top-end',
-                            icon: 'success',
-                            title: 'Account created successfully.',
-                            showConfirmButton: false,
-                            timer: 1500
-                        });
-                        Navigate('/');
+                        })
+                            .then(res => res.json())
+                            .then(data => {
+                                if (data.insertedID) {
+
+                                    reset();
+                                    Swal.fire({
+                                        position: 'top-end',
+                                        icon: 'success',
+                                        title: 'Account created successfully.',
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    });
+                                    navigate('/');
+                                }
+                            })
+
+                        // console.log("user profile info updated")
+
                     }
 
                     )
@@ -105,6 +124,7 @@ const SignUp = () => {
                                 </div>
                             </form>
                             <p className='text-center mb-5 text-xl'><small>Already resistered?<Link to="/login" className='text-blue-700'>Log in from here </Link></small></p>
+                            <SocialLogin></SocialLogin>
                         </div>
                     </div>
                 </div>

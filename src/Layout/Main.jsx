@@ -9,10 +9,15 @@ const Main = () => {
 
     return (
         <div className="">
-            {exceptHeaderFooter || <NavBar></NavBar>}
+            <NavBar></NavBar>
             <Outlet></Outlet>
             {exceptHeaderFooter || <Footer></Footer>}
         </div>
+        // <div className="">
+        //     {exceptHeaderFooter || <NavBar></NavBar>}
+        //     <Outlet></Outlet>
+        //     {exceptHeaderFooter || <Footer></Footer>}
+        // </div>
     );
 };
 

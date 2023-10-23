@@ -40,12 +40,13 @@ const NavBar = () => {
 
                             </ul>
                         </li>
-                        <li><a>Dashboard</a></li>
+                        <li><Link to="/dashboard">Dashboard</Link></li>
                         <li><Link to="/order/dress">Our Shop</Link></li>
                         <li><Link to='/about'>About Us</Link></li>
                         <li>
                             <Link to="/dashboard/mycart">
                                 <button className="btn gap-2">
+
                                     <FaShoppingCart></FaShoppingCart>
 
                                     <div className="badge badge-secondary">+{cart?.length || 0}</div>
@@ -80,7 +81,8 @@ const NavBar = () => {
                             </ul>
                         </details>
                     </li>
-                    <li><a>Dashboard</a></li>
+
+                    <li><Link to="/dashboard">Dashboard</Link></li>
                     <li><Link to="/order/dress">Our Shop</Link></li>
                     <li><Link to='/about'>About Us</Link></li>
                     <li>

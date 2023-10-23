@@ -7,6 +7,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Swal from 'sweetalert2'
 import { useRef } from 'react';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const captchaRef = useRef(null)
@@ -15,6 +16,7 @@ const Login = () => {
     console.log(disabled);
     const navigate = useNavigate();
     const location = useLocation();
+
 
     const from = location.state?.from?.pathname || "/";
 
@@ -108,9 +110,11 @@ const Login = () => {
 
                             </form>
                             <p className='text-center mb-5 text-xl'><small>Are You New Here?<Link to="/signup" className='text-blue-700'>Create An Account </Link></small></p>
+                            <SocialLogin></SocialLogin>
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </>
