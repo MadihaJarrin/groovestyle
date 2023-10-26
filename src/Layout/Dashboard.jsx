@@ -31,7 +31,7 @@ const Dashboard = () => {
                             <li><NavLink to='/dashboard/reservations'><FaCalendarAlt></FaCalendarAlt> Add Items </NavLink> </li>
                             <li><NavLink to='/dashboard/history'><MdManageHistory></MdManageHistory> Manage Items</NavLink></li>
                             <li><NavLink to='/dashboard/history'><MdManageAccounts></MdManageAccounts> Manage Bookings</NavLink></li>
-                            <li><NavLink to='/dashboard/allusers'><FaUsers></FaUsers>All Users</NavLink></li>
+                            <li><NavLink to='/dashboard/allusers'><FaUsers></FaUsers>Manage All Users</NavLink></li>
                         </> : <>
 
                             {/* Sidebar content here */}
