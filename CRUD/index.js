@@ -47,7 +47,7 @@ app.put("/update",async(req,res) => {
     console.log(rest)
     const data = await userModel.updateOne({_id : _id},rest)
     res.send({success : true, message : "data updated successfully", data : data})
-    console.log(data)
+    console.log(data);
 })
 
 //delete
