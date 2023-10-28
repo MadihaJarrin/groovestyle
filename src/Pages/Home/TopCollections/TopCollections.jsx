@@ -32,10 +32,11 @@ const TopCollections = () => {
                         item={item} //send item to listitems
                     ></ListItems>)
                 }
-                <Link to="/categories">
-                    <button className="btn btn-outline border-0 border-b-4 mt-4">View All Collections</button>
-                </Link>
+
             </div>
+            <Link to="/categories" className='flex justify-center '>
+                <button className="btn btn-outline border-0 border-b-4 mt-4 bg-yellow-500 ">View All Collections</button>
+            </Link>
         </section>
     );
 };

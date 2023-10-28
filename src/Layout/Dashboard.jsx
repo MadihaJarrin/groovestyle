@@ -33,7 +33,6 @@ const Dashboard = () => {
                             <li><NavLink to='/dashboard/history'><MdManageAccounts></MdManageAccounts> Manage Bookings</NavLink></li>
                             <li><NavLink to='/dashboard/allusers'><FaUsers></FaUsers>Manage All Users</NavLink></li>
                         </> : <>
-
                             {/* Sidebar content here */}
                             <li><NavLink to='/dashboard/home'><FaHome></FaHome> User Home </NavLink> </li>
                             <li><NavLink to='/dashboard/reservations'><FaCalendarAlt></FaCalendarAlt> Reservations </NavLink> </li>

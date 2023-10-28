@@ -44,7 +44,7 @@ const MyCart = () => {
             <Helmet>
                 <title>Groovestyle | My Cart</title>
             </Helmet>
-            <div className="uppercase font-semibold h-[60px] flex justify-evenly items-center gap-10 text-yellow-500 ">
+            <div className="uppercase font-semibold h-[60px] flex justify-evenly items-center gap-10 text-yellow-500 p-10 ">
                 <h3 className="text-3xl ">Total Items: {cart.length}</h3>
                 <h3 className="text-3xl ">Total Price: ${total.toFixed(2)}</h3>
                 <Link to="/dashboard/payment ">
@@ -61,7 +61,7 @@ const MyCart = () => {
                             <th>Products</th>
                             <th>Item Name</th>
                             <th>Price</th>
-                            <th>Action</th>
+                            <th>Cancel</th>
                         </tr>
                     </thead>
                     <tbody>
