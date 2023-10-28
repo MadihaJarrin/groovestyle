@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149628702.jpg?size=626&ext=jpg&uid=R117844285&ga=GA1.2.860283214.1696241397&semt=sph")
+}
+
+.container{
+  padding:20px;
+  background-color: white; 
+  max-width: fit-content;
+  margin: 100px auto;
+}
+
+.btn{
+  border:none;
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  background: lightcoral;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-add{
+  /*background: violet;*/
+  color: white;
+
+}
+
+.addContainer{
+  position : absolute;
+  background-color: rgba(0,0,0,0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content : center;
+  align-items: center; 
+}
+
+.addContainer form {
+      width: 420px;
+      background-color: violet;
+      display: flex;
+      flex-direction: column;
+      padding: 50px 40px;
+      box-shadow : 5px, 5px, 10px, rgba(0,0,0,0.2);
+      border-radius: 5px
+      
+
+}
+.addContainer form label{
+      font-size: 18px;
+}
+.addContainer form input{
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.addContainer form button{
+  background-color: lightcoral;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+  
+}
+
+.addContainer form .close-btn{
+  margin-left: auto;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+
+}
+
+.tableContainer{
+  margin-top: 70px;
+  box-shadow: 5px 5px 10px gray;
+  
+}
+
+.addContainer table{
+  box-shadow: 5px 5px 10px black;
+}
+
+.tableContainer table thead tr{
+  background-color: coral;
+  
+}
+.tableContainer table thead tr th,
+
+.tableContainer table tbody tr td{
+       min-width: 250px;
+       text-align: center;
+       padding: 10px;
+       
+}
+
+.tableContainer table tbody tr td{
+  border: 1px solid black; 
+}
+ 
+.tableContainer table thead tr td{
+  border-bottom : 5px solid black;
+}
+
+.btn-edit, .btn-delete{
+  font-size: 15px;
+  padding: 15px 15px;
+  margin: 5px 20px;
+
+}
+
+.btn-edit{
+  background-color: rgb(126, 126, 252);
+
+}
+
+.btn-delete{
+  background-color: red;
+}
