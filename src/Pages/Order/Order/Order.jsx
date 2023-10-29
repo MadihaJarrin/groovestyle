@@ -21,6 +21,8 @@ const Order = () => {
     const dress = list.filter(item => item.category === 'dress');
     const bags = list.filter(item => item.category === 'bags');
     const shoes = list.filter(item => item.category === 'shoes');
+    const makeup = list.filter(item => item.category === 'makeup');
+    const accessories = list.filter(item => item.category === 'accessories');
 
     return (
         <div>
@@ -33,6 +35,7 @@ const Order = () => {
                     <Tab>Clothes</Tab>
                     <Tab>Bags</Tab>
                     <Tab>Shoes</Tab>
+                    <Tab>Makeup</Tab>
                     <Tab>Accessories</Tab>
                 </TabList>
 
@@ -44,6 +47,12 @@ const Order = () => {
                 </TabPanel>
                 <TabPanel>
                     <OrderTab items={shoes}></OrderTab>
+                </TabPanel>
+                <TabPanel>
+                    <OrderTab items={makeup}></OrderTab>
+                </TabPanel>
+                <TabPanel>
+                    <OrderTab items={accessories}></OrderTab>
                 </TabPanel>
 
             </Tabs>

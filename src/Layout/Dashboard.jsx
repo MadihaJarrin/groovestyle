@@ -28,8 +28,8 @@ const Dashboard = () => {
                     {
                         isAdmin ? <>
                             <li><NavLink to='/dashboard/home'><MdAdminPanelSettings></MdAdminPanelSettings> Admin Home </NavLink> </li>
-                            <li><NavLink to='/dashboard/reservations'><FaCalendarAlt></FaCalendarAlt> Add Items </NavLink> </li>
-                            <li><NavLink to='/dashboard/history'><MdManageHistory></MdManageHistory> Manage Items</NavLink></li>
+                            <li><NavLink to='/dashboard/addItem'><FaCalendarAlt></FaCalendarAlt> Add Items </NavLink> </li>
+                            <li><NavLink to='/dashboard/manageItems'><MdManageHistory></MdManageHistory> Manage Items</NavLink></li>
                             <li><NavLink to='/dashboard/history'><MdManageAccounts></MdManageAccounts> Manage Bookings</NavLink></li>
                             <li><NavLink to='/dashboard/allusers'><FaUsers></FaUsers>Manage All Users</NavLink></li>
                         </> : <>
@@ -59,3 +59,5 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
+

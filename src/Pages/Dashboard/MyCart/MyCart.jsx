@@ -44,11 +44,13 @@ const MyCart = () => {
             <Helmet>
                 <title>Groovestyle | My Cart</title>
             </Helmet>
-            <div className="uppercase font-semibold h-[60px] flex justify-evenly items-center gap-10 text-yellow-500 p-10 ">
-                <h3 className="text-3xl ">Total Items: {cart.length}</h3>
-                <h3 className="text-3xl ">Total Price: ${total.toFixed(2)}</h3>
-                <Link to="/dashboard/payment ">
-                    <button className="btn btn-warning btn-sm">PAY</button>
+            <div className="uppercase font-semibold h-16 flex justify-evenly items-center gap-10 text-yellow-500 bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200 p-10" >
+                <h3 className="text-3xl text-blue-600">Total Items: {cart.length}</h3>
+                <h3 className="text-3xl text-blue-600">Total Price: ${total.toFixed(2)}</h3>
+                <Link to="/dashboard/payment">
+                    <button className="btn btn-warning btn-sm bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-full focus:outline-none focus:ring focus:ring-red-300">
+                        PAY Please
+                    </button>
                 </Link>
             </div>
 

@@ -3,8 +3,6 @@ import axios from "axios";
 import useAuth from "./useAuth";
 import { useEffect } from "react";
 
-
-
 const useAxiosSecure = () => {
     const { logOut } = useAuth();
     const navigate = useNavigate();
