@@ -17,6 +17,7 @@ import Payment from "../Pages/Dashboard/Payment/Payment";
 import AddItem from "../Pages/Dashboard/AddItem/AddItem";
 import AdminRoute from "./AdminRoute";
 import ManageItems from "../Pages/Dashboard/ManageItems/ManageItems";
+import Reviews from "../Pages/Reviews/Reviews";
 
 export const router = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
             {
                 path: 'order/:category',
                 element: <Order></Order>
+            },
+            {
+                path: 'order/reviews',
+                element: <Reviews></Reviews>
             },
             {
                 path: 'login',

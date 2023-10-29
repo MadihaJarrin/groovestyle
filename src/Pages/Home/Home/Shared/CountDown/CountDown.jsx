@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 
 
 const CountDown = () => {
-    const [days, setDays] = useState(7);
-    const [hours, setHours] = useState(12);
-    const [minutes, setMinutes] = useState(59);
-    const [seconds, setSeconds] = useState(59);
+    const [days, setDays] = useState(10);
+    const [hours, setHours] = useState(5);
+    const [minutes, setMinutes] = useState(30);
+    const [seconds, setSeconds] = useState(45);
 
     useEffect(() => {
         const interval = setInterval(() => {

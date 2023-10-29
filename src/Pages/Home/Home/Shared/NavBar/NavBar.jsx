@@ -42,6 +42,7 @@ const NavBar = () => {
                         </li>
                         <li><Link to="/dashboard">Dashboard</Link></li>
                         <li><Link to="/order/dress">Ooder</Link></li>
+                        <li><Link to="/order/reviews">Reviews</Link></li>
                         <li><Link to='/about'>About Us</Link></li>
                         <li>
                             <Link to="/dashboard/mycart">
@@ -84,6 +85,7 @@ const NavBar = () => {
 
                     <li><Link to="/dashboard">Dashboard</Link></li>
                     <li><Link to="/order/dress">Ooder</Link></li>
+                    <li><Link to="/order/reviews">Reviews</Link></li>
                     <li><Link to='/about'>About Us</Link></li>
                     <li>
                         <Link to="/dashboard/mycart">

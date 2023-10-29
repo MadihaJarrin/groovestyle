@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import featuredImg from '../../../assets/Home/popularItems/coverflow4.jpg'
 import './Featured.css'
@@ -27,8 +28,9 @@ const Featured = () => {
                     <p>{currentDay} {currentMonth} {currentYear} </p>
                     <p className="uppercase">Where can I get some ?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum mollitia hic distinctio laudantium? Beatae quasi hic fugit doloremque minus, totam reiciendis natus error unde repellat placeat dolorem. Magni, nam? </p>
-                    <button className="btn btn-outline border-0 border-b-4 mt-4 text-white">Order Now</button>
-
+                    <Link to={'/order/dress'}>
+                        <button className="btn btn-outline border-0 border-b-4 mt-4 text-white">Order Now</button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@ import PopularItems from "../PopularItems/PopularItems";
 import Testimonials from "../Testimonials/Testimonials";
 import { Helmet } from 'react-helmet-async';
 import TopCollections from "../TopCollections/TopCollections";
+import CountDown from "./Shared/CountDown/CountDown";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 {/* <link rel="canonical" href="https://www.tacobell.com/" /> */}
             </Helmet>
             <Banner></Banner>
+            <CountDown></CountDown>
             <Collections></Collections>
             <PopularItems></PopularItems>
             <TopCollections></TopCollections>

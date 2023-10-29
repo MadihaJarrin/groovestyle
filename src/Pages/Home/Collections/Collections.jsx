@@ -13,6 +13,7 @@ import swiper3 from '../../../assets/Home/slider3.jpg';
 import swiper4 from '../../../assets/Home/slider4.jpg';
 import swiper5 from '../../../assets/Home/slider5.jpg';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
+import { Link } from 'react-router-dom';
 
 
 const Collections = () => {
@@ -33,27 +34,50 @@ const Collections = () => {
                 className="mySwiper mb-24 mt-24"
             >
                 <SwiperSlide>
-                    <img src={swiper1} alt="" />
-                    <h3 className='text-4xl upppercase text-center text-white -mt-16'>Mens</h3>
+                    <Link to={'/order/dress'}>
+                        <img src={swiper1} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Mens</h3>
+                    </Link>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Link to={'/order/shoes'}>
+                        <img src={swiper2} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Girls</h3>
+                    </Link>
 
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={swiper2} alt="" />
-                    <h3 className='text-4xl upppercase text-center text-white -mt-16'>Girls</h3>
+                    <Link to={'/order/shoes'}>
+                        <img src={swiper3} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Latest</h3>
+                    </Link>
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={swiper3} alt="" />
-                    <h3 className='text-4xl upppercase text-center text-white -mt-16'>Latest</h3>
+                    <Link to={'/order/shoes'}>
+                        <img src={swiper4} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white mt-16'>party </h3>
+                    </Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={swiper4} alt="" />
-                    <h3 className='text-4xl upppercase text-center text-white mt-16'>party </h3>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={swiper5} alt="" />
-                    <h3 className='text-4xl upppercase text-center text-white -mt-16'>Casual</h3>
+                    <Link to={'/order/bags'}>
+                        <img src={swiper5} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Casual</h3>
+                    </Link>
                 </SwiperSlide>
 
+                <SwiperSlide>
+                    <Link to={'/order/bags'}>
+                        <img src={swiper1} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Mens</h3>
+                    </Link>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Link to={'/order/shoes'}>
+                        <img src={swiper2} alt="" />
+                        <h3 className='text-4xl upppercase text-center text-white -mt-16'>Girls</h3>
+                    </Link>
+                </SwiperSlide>
             </Swiper>
         </section>
 
