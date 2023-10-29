@@ -29,9 +29,10 @@ const Testimonials = () => {
                 heading={"Remembrance"}
                 subHeading={"What our client say"}
             ></SectionTitle>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper
-             bg-red-100 shadow-inner
-             shadow-cyan-400/50 rounded-full mb-10">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper rounded-full mb-10
+            bg-gradient-to-r from-yellow-400 via-yellow-100 to-yellow-400
+             
+             ">
 
                 {
                     reviews.map(review =>

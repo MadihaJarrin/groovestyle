@@ -9,7 +9,7 @@ import CountDown from "./Shared/CountDown/CountDown";
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Helmet>
                 <title>Groovestyle | Home</title>
                 {/* <link rel="canonical" href="https://www.tacobell.com/" /> */}

@@ -19,7 +19,7 @@ const TopCollections = () => {
     // }, [])
 
     return (
-        <section className="mb-12">
+        <section className="">
             <SectionTitle
                 heading="Top Collection"
                 subHeading="10% discount on"
