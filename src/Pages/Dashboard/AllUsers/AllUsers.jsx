@@ -105,7 +105,10 @@ const AllUsers = () => {
             <Helmet>
                 <title>Groovestyle | All Users</title>
             </Helmet>
-            <h3 className="text-3xl font-semibold my-4">Total Users: {users.length}</h3>
+            <div className=" flex justify-center text-blue-600  bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200 p-10 rounded-full">
+                <h3 className="text-5xl font-semibold my-4 ">Total Users: {users.length}</h3>
+
+            </div>
             <div className="overflow-x-auto">
                 <table className="table table-zebra">
                     {/* head */}

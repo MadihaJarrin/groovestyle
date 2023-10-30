@@ -6,6 +6,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import { Helmet } from 'react-helmet-async';
 import TopCollections from "../TopCollections/TopCollections";
 import CountDown from "./Shared/CountDown/CountDown";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 {/* <link rel="canonical" href="https://www.tacobell.com/" /> */}
             </Helmet>
             <Banner></Banner>
+            <SectionTitle subHeading="Don't Miss" heading="Mega Offer"></SectionTitle>
             <CountDown></CountDown>
             <Collections></Collections>
             <PopularItems></PopularItems>

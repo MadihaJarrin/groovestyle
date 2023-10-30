@@ -12,17 +12,16 @@ import swiper2 from '../../../assets/Home/slider2.jpg';
 import swiper3 from '../../../assets/Home/slider3.jpg';
 import swiper4 from '../../../assets/Home/slider4.jpg';
 import swiper5 from '../../../assets/Home/slider5.jpg';
-import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import { Link } from 'react-router-dom';
 
 
 const Collections = () => {
     return (
         <section>
-            <SectionTitle
+            {/* <SectionTitle
                 subHeading={"From 10 am to 12 pm"}
                 heading={"Trendy Collection"}
-            ></SectionTitle>
+            ></SectionTitle> */}
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
